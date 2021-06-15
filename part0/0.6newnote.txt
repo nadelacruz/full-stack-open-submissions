@@ -1,0 +1,16 @@
+note over browser:
+user inputs text inside text field
+and clicks the save button
+end note
+
+note over browser:
+when button is clicked
+redraw function runs,
+the inputted text is
+appended to the data,
+after that the function
+re renders the data
+(posts) to the display
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
